@@ -1,0 +1,95 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header */
+header {
+    background-color:blueviolet;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #3a3a3a 3px solid;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+.subtitle {
+    font-size: 1.2em;
+    color: black
+}
+
+/* About Section */
+.about {
+    background-color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.about img.profile-pic {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.about h2 {
+    font-size: 2.2em;
+    color: #333;
+}
+
+.about p.title {
+    font-size: 1.2em;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.about a.btn {
+    display: inline-block;
+    text-decoration: none;
+    background: #00b0ff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* About Me Section */
+.about-me {
+    background-color: #e2e2e2;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about-me h3 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.about-me p {
+    font-size: 1.1em;
+    color: #555;
+    width: 70%;
+    margin: auto;
+}
+
+/* Footer */
+footer {
+    background-color: #2b2b2b;
+    color: #8d8484;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
